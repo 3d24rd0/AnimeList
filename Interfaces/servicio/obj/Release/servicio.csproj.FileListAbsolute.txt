@@ -1,0 +1,7 @@
+C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\bin\servicio.dll
+C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\bin\servicio.pdb
+C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\bin\Oracle.DataAccess.dll
+C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\obj\Release\servicio.dll
+C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\obj\Release\servicio.pdb
+C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\bin\servicio.dll.CodeAnalysisLog.xml
+C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\bin\servicio.dll.lastcodeanalysissucceeded

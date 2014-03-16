@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{B224C44C-1CAF-43D2-9AD6-369D6FE1BB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicio", "servicio\servicio.csproj", "{FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B224C44C-1CAF-43D2-9AD6-369D6FE1BB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B224C44C-1CAF-43D2-9AD6-369D6FE1BB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B224C44C-1CAF-43D2-9AD6-369D6FE1BB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B224C44C-1CAF-43D2-9AD6-369D6FE1BB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
