@@ -1,7 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{B224C44C-1CAF-43D2-9AD6-369D6FE1BB7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListAnime", "Interfaces\ListAnime.csproj", "{B224C44C-1CAF-43D2-9AD6-369D6FE1BB7B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C} = {FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "servicio", "servicio\servicio.csproj", "{FD9DE5D0-91F9-432D-8BB3-0BE114F68D7C}"
 EndProject

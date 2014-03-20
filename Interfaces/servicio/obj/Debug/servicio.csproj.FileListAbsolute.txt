@@ -4,3 +4,8 @@ C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\bin\se
 C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\bin\Oracle.DataAccess.dll
 C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\obj\Debug\servicio.dll
 C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\servicio\obj\Debug\servicio.pdb
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\servicio\bin\servicio.dll
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\servicio\bin\servicio.pdb
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\servicio\obj\Debug\servicio.dll
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\servicio\obj\Debug\servicio.pdb
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\servicio\obj\Debug\servicio.csprojResolveAssemblyReference.cache

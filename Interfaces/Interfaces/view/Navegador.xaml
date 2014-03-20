@@ -1,0 +1,21 @@
+﻿<Window x:Class="Interfaces.view.Navegador"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Navegador" Height="300" Width="600" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <StackPanel Orientation="Vertical">
+        <StackPanel.Background>
+            <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" SpreadMethod="Reflect">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFC72020" Offset="0.044"/>
+                <GradientStop Color="#FE151515" Offset="0.088"/>
+                <GradientStop Color="#FE854444" Offset="0.992"/>
+            </LinearGradientBrush>
+        </StackPanel.Background>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Background="Black">
+            <Button Click="Button_Click_1">--</Button>
+            <Button Click="Button_Click">X</Button>
+        </StackPanel>
+        <Frame Name="frame"></Frame>
+    </StackPanel>
+</Window>

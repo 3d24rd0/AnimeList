@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/servicio" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/servicio" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfSeriesUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SeriesUser" nillable="true" type="tns:SeriesUser" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSeriesUser" nillable="true" type="tns:ArrayOfSeriesUser" />
+  <xs:complexType name="SeriesUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Nonmbre" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tener" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Vista" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SeriesUser" nillable="true" type="tns:SeriesUser" />
+  <xs:complexType name="ArrayOfAnnimeNews">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AnnimeNews" nillable="true" type="tns:AnnimeNews" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnnimeNews" nillable="true" type="tns:ArrayOfAnnimeNews" />
+  <xs:complexType name="AnnimeNews">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Guid" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Link" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PubDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AnnimeNews" nillable="true" type="tns:AnnimeNews" />
+</xs:schema>

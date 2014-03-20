@@ -28,3 +28,36 @@ C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\Interfaces\obj\
 C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\Interfaces\obj\Debug\Interfaces_MarkupCompile.lref
 C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\Interfaces\bin\Debug\Microsoft.Expression.Drawing.dll
 C:\Users\visual\Documents\Visual Studio 2012\Projects\Interfaces\Interfaces\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Interfaces.exe.config
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces.exe
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces.pdb
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Interfaces.exe
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\linq2db.dll
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Oracle.DataAccess.dll
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\BlackCrystal.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\BureauBlack.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\BureauBlue.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\ExpressionDark.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\ExpressionLight.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\ShinyBlue.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\ShinyRed.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Themes\WhistlerBlue.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\view\ToolTip.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\MainWindow.g.cs
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\view\ToolTip.g.cs
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\App.g.cs
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces_MarkupCompile.cache
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces_MarkupCompile.lref
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\MainWindow.baml
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces.g.resources
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces.Properties.Resources.resources
+C:\Users\visual\Documents\GitHub\AnimeList\Interfaces\Interfaces\obj\Debug\Interfaces.csproj.GenerateResource.Cache

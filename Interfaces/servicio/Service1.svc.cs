@@ -5,7 +5,8 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
-using Oracle.DataAccess.Client;
+using servicio.clases;
+using System.Data;
 
 namespace servicio
 {
@@ -13,46 +14,44 @@ namespace servicio
     // NOTE: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione Service1.svc o Service1.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class Service1 : IService1
     {
-        private OracleConnection con;
-        private void Connect()
+       
+        public List<AnnimeNews> GetNews()
         {
-            con = new OracleConnection();
-            con.ConnectionString = "User Id=edaurdo;Password=eduardo;Data Source=eduardo";
-            con.HostName = "192.168.0.10";
-            con.Open();
-            
-            Console.WriteLine("Connected to Oracle" + con.ServerVersion);
-        }
-        private void Close()
-        {
-            con.Close();
-            con.Dispose();
+            return Read_rss.GetData();
         }
 
-        public Boolean Test()
+        public Boolean login(String user, String password)
         {
-            try
-            {
-                Connect();
-                Close();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
-        } 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+            Mysql db = new Mysql();
+            return db.Login(user, password);
+        }
+
+        private void InsertUser(String user, String Password)
         {
-            if (composite == null)
-            {
-                throw new ArgumentNullException("composite");
-            }
-            if (composite.BoolValue)
-            {
-                composite.StringValue += "Suffix";
-            }
-            return composite;
+            Mysql db = new Mysql();
+            db.InsertUser(user, Password);
+
+        }
+        public List<SeriesUser> ListaSeries(String user)
+        {
+            Mysql db = new Mysql();
+            List<SeriesUser> s = db.Get_Series_By_user(user);
+            return s;
+        }
+        public void update_vista_anime(String user, Boolean tu, String anime)
+        {
+            Mysql db = new Mysql();
+            db.Update_vista(user,anime,tu);
+        }
+        public List<SeriesUser> Get_listaquenotengo(String user)
+        {
+            Mysql db = new Mysql();
+            return db.Get_All_List_notuser(user);
+        }
+        public void Añade_alista(String user, String Nombre, Boolean tu)
+        {
+            Mysql db = new Mysql();
+            db.Añade_alista( user, Nombre, tu);
         }
     }
 }

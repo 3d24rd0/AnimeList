@@ -13,8 +13,8 @@
     Width="160"
     Height="40">
         <TextBlock
-      Text="Series List"
+      Text="ListAnime"
       HorizontalAlignment="Center"
-      VerticalAlignment="Center" />
+      VerticalAlignment="Center" FontWeight="Bold" FontFamily="SketchFlow Print" FontSize="24" />
     </Border>
 </UserControl>
